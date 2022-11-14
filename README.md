@@ -20,4 +20,5 @@ es donde lo creara
 
 ## linux
 
-*en el caso de linux utilizaremos el fork para generar los procesos
+*en el caso de linux utilizaremos el fork para generar los procesos y lo guardamos en la variable con un if veremos si su pid es 0 en ese caso haremos que ejecute
+el metodo para el hijo que seria parecido como hicimos en linux
