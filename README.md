@@ -11,14 +11,14 @@ del while para salir
 
 ## window
 
-*en el caso de window creo un hijo con process indicando una funcion hijo para que el hijo la ejcute donde mostrar el mensaje con su pid despues del start que 
+* en el caso de window creo un hijo con process indicando una funcion hijo para que el hijo la ejcute donde mostrar el mensaje con su pid despues del start que 
 es donde lo creara
 
-*una vez echo esto hacer un join pasandole un 0 como parametro ya que queremos que no espere a que el hijo termine para generar el siguiente
+* una vez echo esto hacer un join pasandole un 0 como parametro ya que queremos que no espere a que el hijo termine para generar el siguiente
 
-*en la funcion hijo ponemos un sleep con 5 pasado como parametro para que espere 5 segundos antes de morir con la funcion exit
+* en la funcion hijo ponemos un sleep con 5 pasado como parametro para que espere 5 segundos antes de morir con la funcion exit
 
 ## linux
 
-*en el caso de linux utilizaremos el fork para generar los procesos y lo guardamos en la variable con un if veremos si su pid es 0 en ese caso haremos que ejecute
+* en el caso de linux utilizaremos el fork para generar los procesos y lo guardamos en la variable con un if veremos si su pid es 0 en ese caso haremos que ejecute
 el metodo para el hijo que seria parecido como hicimos en linux
